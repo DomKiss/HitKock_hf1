@@ -58,8 +58,8 @@ fibonacci_tetszoleges(2, 55)
 csapat_df <- data.frame(
   id = c(1, 2, 3, 4),
   keresztnev = as.character(c("Dávid", "Dávid", "Bence", "Domonkos")),
-  szuletesiev=c(1998,1997,1996,1996),
-  magassag=c(177,173,180,173),
+  szuletesiev=c(1998,1997,1997,1996),
+  magassag=c(177,173,178,173),
   nem=as.factor(c("férfi","férfi","férfi","férfi")),
   elkotelezettseg=c(100,100,100,100), stringsAsFactors=FALSE
 ) 
