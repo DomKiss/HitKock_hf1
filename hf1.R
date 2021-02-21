@@ -74,7 +74,7 @@ csapat_df %>% filter(nem=="férfi") %>% summarise(mean(magassag))
 csapat_df %>% filter(nem=="nő") %>% mutate(eletkor=2019-szuletesiev) %>% summarise(mean(eletkor))
 
 #felsorolja, milyen a 180 cm alatti csapattagok eloszlása nemek szerint (fér, n®).
-csapat_df %>% filter(magassag<180) %>% select(nem, magassag) %>% group_by(nem, magassag) %>%  count(magassag)
+csapat_df %>% filter(magassag<180) %>% select(nem) %>% group_by(nem) %>%  count(nem)
 
 
 
